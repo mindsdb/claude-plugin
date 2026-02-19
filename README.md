@@ -5,7 +5,7 @@
 This is a [Claude Code plugin marketplace](https://docs.anthropic.com) that gives Claude direct access to your data through [Minds](https://mdb.ai) — no context-switching, no copy-pasting query results, no leaving your terminal.
 
 ```
-/plugin marketplace add jorgestorres/claude-plugin
+/plugin marketplace add mindsdb/claude-plugin
 /plugin install minds@minds-marketplace
 ```
 
@@ -61,7 +61,7 @@ export MINDS_API_KEY=your_key_here
 ### 3. Install the plugin
 
 ```
-/plugin marketplace add jorgestorres/claude-plugin
+/plugin marketplace add mindsdb/claude-plugin
 /plugin install minds@minds-marketplace
 ```
 
@@ -204,7 +204,7 @@ Add this marketplace to your project's `.claude/settings.json` so every team mem
     "minds-marketplace": {
       "source": {
         "source": "github",
-        "repo": "jorgestorres/claude-plugin"
+        "repo": "mindsdb/claude-plugin"
       }
     }
   },
