@@ -10,6 +10,11 @@ const API_KEY = process.env.MINDS_API_KEY || "";
 // ── Helpers ────────────────────────────────────────────────────────────────────
 
 async function api(method, path, body) {
+  if (!API_KEY) {
+    throw new Error(
+      "MINDS_API_KEY is not set. Get your key at https://mdb.ai/apiKeys and run: export MINDS_API_KEY=your_key_here"
+    );
+  }
   const url = `${BASE_URL}${path}`;
   const headers = {
     Authorization: `Bearer ${API_KEY}`,
