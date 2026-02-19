@@ -1,0 +1,23 @@
+{
+  "name": "minds-marketplace",
+  "owner": {
+    "name": "Minds",
+    "email": "support@mdb.ai"
+  },
+  "metadata": {
+    "description": "Plugin marketplace for Minds — connect your data and ask questions with AI",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "minds",
+      "source": "./plugins/minds",
+      "description": "Connect databases, create AI Minds, and query your data using natural language — powered by the Minds REST API",
+      "version": "1.0.0",
+      "keywords": ["minds", "mindsdb", "data", "sql", "ai", "database", "mcp"],
+      "category": "data",
+      "license": "MIT"
+    }
+  ]
+}

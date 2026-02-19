@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "minds": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/src/index.mjs"],
+      "env": {
+        "MINDS_API_KEY": "${MINDS_API_KEY}",
+        "MINDS_BASE_URL": "${MINDS_BASE_URL:-https://mdb.ai}"
+      }
+    }
+  }
+}

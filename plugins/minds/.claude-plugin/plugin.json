@@ -1,0 +1,8 @@
+{
+  "name": "minds",
+  "description": "Connect databases, create AI Minds, and query your data using natural language",
+  "version": "1.0.0",
+  "author": {
+    "name": "Minds"
+  }
+}
